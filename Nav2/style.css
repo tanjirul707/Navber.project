@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   ?
+    color: aliceblue;
+}
+
+
+a,p,li,ul,button{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    margin-right: 2px;
+    margin-left: 5px;
+}
+
+
+.logo{
+    font-weight: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 5px;
+    margin-right: auto;
+}
+
+.navLinks li{
+    display: inline-block;
+    list-style: none;
+}
+
+
+.navLinks li a{
+    margin: 0 3px;
+
+}
+
+.navLinks li a:hover{
+    background-color: red;
+    transition: all .3s ease 0;
+
+}
+
+
+
+.btn{
+    border-radius: 8px;
+    background-color: red;
+    transition: all .3s ease 0;
+}
+
+.btn:hover{
+    background-color: rgb(11, 254, 11);
+}
+
+
+.background{
+    height: 100vh;
+    width: 100% ;
+    background-image: linear-gradient(blue,red);
+position: relative;
+}
+
+ul li {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    list-style: none;
+}
+
+.scure li{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    animation: scure 2s linear infinite;
+   
+}
+
+
+@keyframes scure{
+    0%{
+        opacity: 0 rotatey(0deg);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(4) rotate(8000deg)
+    }
+}
+
+
+
+
+
+.scure li:nth-child(2){
+    position: absolute;
+    top: 15vh;
+    left: 15vw;
+    animation-delay: 2s;
+}
+
+
+.scure li:nth-child(3){
+    position: absolute;
+    top: 15vh;
+    left: 80vw;
+    animation-delay: 3s;
+}
+
+
+
+
+.scure li:nth-child(4){
+    position: absolute;
+    top: 85vh;
+    left: 15vw;
+    animation-delay: 4s;
+ 
+}
+
+
+
+.scure li:nth-child(5){
+    position: absolute;
+    top: 85vh;
+    left: 80vw;
+    animation-delay: 5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
